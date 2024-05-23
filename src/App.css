@@ -1,5 +1,13 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+:root{
+  --main-color: #f3f3f3;
+  --secondary-color: #161516;
+  --third-color: rgb(13, 110, 253);
+  --grosor-negrita :bold;
+  --navbar-color: #f3f3f3;
+}
+
+body{
+  font-family: "Allerta Stencil", sans-serif;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
